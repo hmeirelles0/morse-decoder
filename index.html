@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Morse Kata</title>
+</head>
+<body style="text-align: center; margin: auto; padding: 15% 0%; background-color: dodgerblue;">
+    <div style="background-color: white; margin: auto; width: fit-content; padding: 30px; border-radius: 10px;">
+        <header>
+            <h1>Decodificador de código Morse</h1>
+        </header>
+        <hr>
+        <main>
+            <label for="campoMorse">Digite aqui seu código morse:</label>
+            <br>
+            <input type="text" name="morse" id="campoMorse">
+            <br>
+            <br>
+            <input type="button" value="ENVIAR" onclick="decodeMorse()">
+            <br>
+            <br>
+            <label for="campoResultado">SAÍDA</label>
+            <br>
+            <input type="text" name="resultado" id="campoResultado">
+        </main>
+        <footer>
+        </footer>
+    </div>
+    <script src="morse.js"></script>
+</body>
+</html>
